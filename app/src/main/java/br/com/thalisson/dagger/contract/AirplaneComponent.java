@@ -1,7 +1,6 @@
 package br.com.thalisson.dagger.contract;
 
 import br.com.thalisson.dagger.domain.Airplane;
-import br.com.thalisson.dagger.domain.LandingGear;
 import br.com.thalisson.dagger.module.AirplaneModule;
 import br.com.thalisson.dagger.scope.PerActivity;
 import dagger.Component;
