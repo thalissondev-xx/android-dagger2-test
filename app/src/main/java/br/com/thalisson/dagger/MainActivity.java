@@ -3,6 +3,7 @@ package br.com.thalisson.dagger;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import br.com.thalisson.dagger.contract.AirplaneComponent;
@@ -14,6 +15,7 @@ import br.com.thalisson.dagger.domain.Airplane;
 import br.com.thalisson.dagger.domain.Car;
 import br.com.thalisson.dagger.module.AirplaneModule;
 import br.com.thalisson.dagger.module.CarModule;
+import butterknife.Bind;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,10 +26,15 @@ public class MainActivity extends AppCompatActivity {
     private Airplane mAirplane;
     private SharedPreferences mSharePreferences;
 
+    @Bind(R.id.tv)
+    TextView tv;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        tv.setText("Thalisson Estrela Lopes");
 
         mCarComponent = DaggerCarComponent
                 .builder()
