@@ -29,10 +29,21 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.0.1'
     compile 'com.android.support:design:23.0.1'
 
+    // Dagger 2
     compile 'javax.inject:javax.inject:1'
     compile 'javax.annotation:javax.annotation-api:1.2'
     compile 'com.google.dagger:dagger:2.0.1'
     apt 'com.google.dagger:dagger-compiler:2.0.1'
     provided 'org.glassfish:javax.annotation:10.0-b28'
-    compile 'com.jakewharton:butterknife:7.0.1'
+
+    //Retrofit
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+
+    //OkHttp
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.squareup.okio:okio:1.7.0'
+
+    //Gson
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.1'
 }
