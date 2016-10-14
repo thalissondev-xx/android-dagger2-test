@@ -1,6 +1,12 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.neenbedankt.android-apt'
 
+ext {
+    VERSION_NAME = project.VERSION_NAME
+    VERSION_CODE = project.VERSION_CODE.toInteger()
+}
+
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.0"
