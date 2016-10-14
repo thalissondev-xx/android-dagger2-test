@@ -8,8 +8,8 @@ android {
         applicationId "br.com.thalisson.dagger"
         minSdkVersion 19
         targetSdkVersion 23
-        versionCode 5
-        versionName "1.0.1"
+        versionCode project.VERSION_CODE.toInteger()
+        versionName project.VERSION_NAME
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
