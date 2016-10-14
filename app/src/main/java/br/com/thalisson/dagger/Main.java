@@ -21,5 +21,6 @@ public class Main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //((App) getApplication()).getNetComponent().inject(this);
+        //teste
     }
 }
