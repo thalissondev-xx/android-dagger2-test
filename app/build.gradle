@@ -15,7 +15,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("nokey")
+            storeFile file("/Volumes/Macintosh Files/Jenkins/jenkins.jks")
             storePassword "116341"
             keyAlias "jenkins"
             keyPassword "116341"
