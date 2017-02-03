@@ -1,2 +1,3 @@
-# android-dagger2-test
-Sample Dagger2
+# Dependency Injection
+
+Dependency injection using Dagger 2. This project is a study.
