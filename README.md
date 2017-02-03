@@ -1,3 +1,3 @@
 # Dependency Injection
 
-Dependency injection using Dagger 2. This project is a study.
+Dependency injection using Dagger 2. This project is a test.
